@@ -27,7 +27,11 @@ def add_employee():
             print("Invalid input. Please enter a numeric Employee ID.")
     
     # Get employee details
-    name = input("Enter Employee Name: ")
+    while True:
+        name = input("Enter Employee Name: ").strip()
+        if name:
+            break
+        print("Name cannot be empty. Please enter a valid name.")
     
     while True:
         try:
@@ -39,7 +43,11 @@ def add_employee():
         except ValueError:
             print("Invalid input. Please enter a numeric age.")
     
-    department = input("Enter Employee Department: ")
+    while True:
+        department = input("Enter Employee Department: ").strip()
+        if department:
+            break
+        print("Department cannot be empty. Please enter a valid department.")
     
     while True:
         try:
