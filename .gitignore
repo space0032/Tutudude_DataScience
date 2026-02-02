@@ -35,3 +35,10 @@ env/
 # OS
 .DS_Store
 Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*_executed.ipynb
+
+# Assignment outputs
+employees_sorted_by_salary.csv
