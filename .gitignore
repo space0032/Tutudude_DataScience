@@ -42,3 +42,4 @@ Thumbs.db
 
 # Assignment outputs
 employees_sorted_by_salary.csv
+node_modules/
